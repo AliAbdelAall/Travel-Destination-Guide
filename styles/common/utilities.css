@@ -13,7 +13,14 @@
 }
 
 .header h1 {
+  display: flex;
+  gap: 5px;
+  align-items: center;
   color: rgb(49, 49, 49);
+}
+
+.header h1 p{
+  font-size: 20px;
 }
 
 .nav{
@@ -38,11 +45,13 @@
   text-decoration: none;
   color: rgb(70, 70, 70);
   letter-spacing: 2px;
+  
 }
 
 .nav-button:hover{
   border-bottom: solid 3px black;
   transition: 0.2s
+  
 }
 
 .profile{
@@ -52,7 +61,18 @@
 }
 
 .profile-image{
-  width: 70px;
-  height: 70px;
+  width: 75px;
+  height: 75px;
   border-radius: 100%;
+  border: solid 2px rgb(255, 255, 255);
+  
+}
+
+.profile-image:hover{
+  border: none;
+  opacity: 950%;
+}
+
+.container{
+  width: 100%;
 }
