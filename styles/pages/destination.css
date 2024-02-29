@@ -60,6 +60,7 @@
 .location-pair{
   display: flex;
   justify-content: space-evenly;
+  align-items: start;
   width: 120%;
 }
 
