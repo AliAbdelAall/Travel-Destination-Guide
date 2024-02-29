@@ -1,8 +1,85 @@
 .locations-container{
   display: flex;
+
   align-items: center;
   justify-content: space-around;
   height: 1100px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5)), url(/images/colosseum.jpg);
   background-size: cover;
+}
+
+.location-image{
+  height: 250px;
+  width: 300px;
+  border: solid 10px rgba(255, 255, 255, 0);
+  border-radius: 20px;
+}
+
+.location-image:hover{
+  border: none;
+}
+
+.italy{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 550px;
+  gap: 20px;
+}
+
+.italy-header{
+  color: white;
+  font-size: 60px;
+  text-align: center;
+
+}
+
+.italy-paragraph{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  line-height: 22px;
+}
+
+.italy-paragraph p{
+  color: white;
+  letter-spacing: 1px;
+  font-size: 16px;
+}
+
+.location{
+  width: 300px;
+}
+
+.locations-details{
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+
+.location-pair{
+  display: flex;
+  justify-content: space-evenly;
+  width: 120%;
+}
+
+.location{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+}
+
+.location h2{
+  color: white;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+.location p{
+  color: white;
+  font-size: 16px;
+  letter-spacing: 1px;
 }
