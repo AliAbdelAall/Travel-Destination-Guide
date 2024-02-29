@@ -1,0 +1,8 @@
+.locations-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 1100px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5)), url(/images/colosseum.jpg);
+  background-size: cover;
+}
